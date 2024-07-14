@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="5-2-1.css">
+    <title>a5-z</title>
+  </head>
+  <body>
+        <form>
+          <fieldset>
+            <h1>Contact Us</h1>
+            <label>how do you want to order your meal:</label>
+            <br><br>
+            <select name="order" required style="width: 300px;">
+            <option>in person</option>
+            <option>take away</option>
+            <option>online</option>
+            </select>
+            <br><br>
+            <label> First name:</label>
+            <br><br>
+            <input type="text" placeholder="ali" required name="f.name" style="width: 300px;" />
+            <br><br>
+            <label> Last name:</label>
+            <br><br>
+            <input type="text" placeholder="mohammadi" required name="l.name" style="width: 300px;"/>
+            <br><br>
+            <label> Email:</label>
+            <br><br>
+            <input
+            type="email" placeholder="ali.mohammadi@gmail.com" required name="email" style="width: 300px;"/>
+            <br><br>
+            <label>Are you a member of online shop?</label>
+             <span>YES</span>
+            <input type="radio" name="member" />
+            <span>NO</span>
+            <input type="radio" name="member" />
+            <br><br>
+            <label style="border-radius: 10%"> order:</label>
+            <br><br>
+            <textarea placeholder="more details..."style="width: 300px; height: 150px"></textarea>
+            <br><br>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="reset" />
+          </fieldset>  
+
+        </form>
+  </body>
+</html>

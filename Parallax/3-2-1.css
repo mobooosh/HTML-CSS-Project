@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+}
+.parallax{
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+  }
+  .parallax1{
+    background-image: url(birds.jpg);
+  }
+  .parallax2{
+    background-image: url(child.jpg);
+  }
+  h1,p{ 
+    background-color: #000;
+    text-align: center;
+    position: absolute;
+  }
+  h1{
+      top: 10%;
+      left: 45%;
+  }
+  p{
+      bottom: 0;
+      margin: 0;
+  }

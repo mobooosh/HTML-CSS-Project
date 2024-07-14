@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="2-1.css" />
+    <title>num2</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <p>Filling the form that is Specified by * its necessary</p>
+        <legend >Personaly:</legend>
+        <label> *First name:</label>
+        <input type="text" placeholder="ali" required name="f.name" />
+        <hr />
+        <label> *Last name:</label>
+        <input type="text" placeholder="mohammadi" required name="l.name" />
+        <hr />
+        <label> *Email:</label>
+        <input
+          type="email"
+          placeholder="ali.mohammadi@gmail.com"
+          required
+          name="email"
+        />
+        <hr />
+        <label> *Telephone:</label>
+        <input type="tel" placeholder="123-79-741" required name="tel" />
+        <hr />
+        <label> *Username:</label>
+        <input
+          type="text"
+          placeholder="mammad"
+          required
+          size="25"
+          name="name"
+        />
+        <hr />
+        <label> Adress:</label>
+        <input type="text" size="100" name="add" />
+        <hr />
+        <label>choose your favorite color</label>
+        <input type="color" value="#ccff97" name="color" />
+        <hr />
+        <label>*choose your language:</label>
+        <select name="language" required>
+          <option>c++</option>
+          <option>js</option>
+          <option>php</option>
+        </select>
+        <hr />
+        <label>your nationality:</label>
+        <br />
+        <span>Iranian</span>
+        <input type="radio" name="nationality" />
+        <span>French</span>
+        <input type="radio" name="nationality" />
+        <span>British</span>
+        <input type="radio" name="nationality" />
+        <hr />
+        <label style="border-radius: 10%"> information:</label>
+        <br />
+        <textarea
+          placeholder="more details..."
+          style="width: 300px; height: 150px"
+        ></textarea>
+        <hr />
+        <hr />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
